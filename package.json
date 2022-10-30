@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "MERN shopping cart app",
   "main": "server.js",
-  "node": "18.x",
+  "engines": {
+    "node": "18.x"
+  },
   "type": "module",
   "scripts": {
     "start": "node backend/server",
