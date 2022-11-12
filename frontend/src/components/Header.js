@@ -40,19 +40,6 @@ const Header = () => {
                   <NavDropdown.Item onClick={logoutHandler}>
                     Logout
                   </NavDropdown.Item>
-               
-               
-               {/* dark mood handler */}
-          <button className="cursor-pointer ">
-                      <i class="fas fa-toggle-on">{mood === 'dark' ? (
-              <FiSun size={40} onClick={() => dispatch(setMood('light'))} />
-            ) : (
-              <MdDarkMode size={40} onClick={() => dispatch(setMood('dark'))} />
-            )}</i>
-
-            
-          </button>
-               
                 </NavDropdown>
               ) : (
                 <LinkContainer to="/login">
@@ -73,11 +60,7 @@ const Header = () => {
                     <NavDropdown.Item>Orders</NavDropdown.Item>
                   </LinkContainer>
                 </NavDropdown>
-                
-                
               )}
-              
-              
             </Nav>
           </Navbar.Collapse>
         </Container>
