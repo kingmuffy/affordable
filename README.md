@@ -1,4 +1,4 @@
-# ProShop eCommerce Platform
+
 
 > eCommerce platform built with the MERN stack & Redux.
 
@@ -87,22 +87,9 @@ npm run data:import
 npm run data:destroy
 ```
 
-```
-Sample User Logins
-
-admin@example.com (Admin)
-123456
-
-john@example.com (Customer)
-123456
-
-jane@example.com (Customer)
-123456
-```
 
 
-## License
 
-The MIT License
 
-Copyright (c) affordabu
+
+ affordabu
